@@ -488,19 +488,19 @@ img{
 }
 
 
-/*===== PORTFOLIO =====*/
-.portfolio_nav{
+/*===== RESEARCH =====*/
+.research_nav{
     text-align: center;
     margin-bottom: var(--mb-3);
 }
 
-.portfolio__item{
+.research__item{
     margin: 0 var(--mb-2);
     cursor: pointer;
     color: #fff;
 }
 
-.portfolio__content{
+.research__content{
     background-color: #000;
     border-radius: 0.5rem;
     overflow: hidden;
@@ -508,37 +508,37 @@ img{
     height: 550px; 
 }
 
-.portfolio__img{
+.research__img{
     width: 100%;
 
     transition: 0.4s;
 }
 
-.portfolio__data{
+.research__data{
     padding: 0.2rem;
 }
 
-.portfolio__subtitle{
+.research__subtitle{
     font-size: 0.8rem;
     color: #e7e7e7ee;
 }
 
-.portfolio__title{
+.research__title{
     font-size: 1rem;
     color: #CCC;
     margin: var(--mb-2) 0;
 }
 
-.portfolio__content:hover{
+.research__content:hover{
     box-shadow: 0 6px 8px rgba(174, 190, 205, 0.4);
 }
 
-.portfolio__content:hover .portfolio__img{
+.research__content:hover .research__img{
     transform: scale(1.02);
 }
 
-/* Active menu portfolio*/
-.active-portfolio{
+/* Active menu research*/
+.active-research{
     color: var(--first-color-dark);
     font-weight: var(--font-semi-bold);
 }
@@ -717,7 +717,7 @@ img{
         grid-template-columns: repeat(2,1fr);
     }
 
-    .portfolio__container{
+    .research__container{
         grid-template-columns: repeat(2,1fr);
     }
 
@@ -803,7 +803,7 @@ img{
         grid-template-columns: repeat(3,1fr);
     }
 
-    .portfolio__container{
+    .research__container{
         grid-template-columns: repeat(3,1fr);
     }
 
