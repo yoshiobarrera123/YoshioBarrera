@@ -60,10 +60,10 @@ function scrollTop(){
 window.addEventListener('scroll', scrollTop)
 
 
-/*===== MIXITUP FILTER PORTFOLIO =====*/ 
-const mixer = mixitup('.portfolio__container', {
+/*===== MIXITUP FILTER RESEARCH =====*/ 
+const mixer = mixitup('.research__container', {
     selectors: {
-        target: '.portfolio__content'
+        target: '.research__content'
     },
     animation: {
         duration: 400
@@ -71,16 +71,16 @@ const mixer = mixitup('.portfolio__container', {
 });
 
 
-/* Link active portfolio */ 
-const linkPortfolio = document.querySelectorAll('.portfolio__item')
+/* Link active research */ 
+const linkresearch = document.querySelectorAll('.research__item')
 
-function activePortfolio(){
-    if(linkPortfolio){
-        linkPortfolio.forEach(l => l.classList.remove('active-portfolio'))
-        this.classList.add('active-portfolio')
+function activeresearch(){
+    if(linkresearch){
+        linkresearch.forEach(l => l.classList.remove('active-research'))
+        this.classList.add('active-research')
     }
 }
-linkPortfolio.forEach(l => l.addEventListener('click', activePortfolio))
+linkresearch.forEach(l => l.addEventListener('click', activeresearch))
 
 /*===== SWIPER CAROUSEL =====*/ 
 const mySwiper = new Swiper('.testimonial__container', {
